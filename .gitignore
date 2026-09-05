@@ -1,0 +1,15 @@
+# 仅发布 notebook 源文件与 GitHub Pages 静态站点
+backend/
+frontend/
+node_modules/
+**/node_modules/
+**/venv/
+**/__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# 课程原始资料与本地笔记
+*.pdf
+raw.md
+magicbook.md
+requirements.md
